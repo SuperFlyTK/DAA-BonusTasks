@@ -38,6 +38,14 @@ public class Graph {
         return new ArrayList<>(adjacencyList.get(vertex));
     }
 
+    public void printGraph() {
+        System.out.println("Graph with " + vertices + " vertices and " + edges.size() + " edges:");
+        for (Edge edge : edges) {
+            System.out.println("  " + edge.getSource() + " -- " + edge.getDestination() +
+                    " (weight: " + edge.getWeight() + ")");
+        }
+    }
+
     public static Graph createSampleGraph() {
         Graph graph = new Graph(6);
         graph.addEdge(0, 1, 4);

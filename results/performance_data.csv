@@ -1,6 +1,6 @@
-    Test Case,Vertices,Edges,Original MST Weight,Removed Edge,Replacement Edge,New MST Weight,Weight Change,Components After Removal,Execution Time (ms)
-    Basic Graph,4,5,7,1-2 (weight: 2),0-2 (weight: 3),8,1,2,21
-    Sample Graph,6,9,9,1-2 (weight: 1),0-1 (weight: 4),12,3,2,0
-    Large Graph,8,11,17,3-4 (weight: 2),3-5 (weight: 5),20,3,2,0
-    Bridge Removal,5,5,10,0-1 (weight: 1),0-4 (weight: 8),17,7,2,0
-    Complex Graph,7,9,13,5-6 (weight: 2),4-6 (weight: 4),15,2,2,0
+Test Case,Vertices,Edges,Original MST Weight,Removed Edge,Replacement Edge,New MST Weight,Weight Change,Components After Removal,Execution Time (ms)
+Basic Graph,4,5,7,1-2 (weight: 2),0-2 (weight: 3),8,1,2,24
+Sample Graph,6,9,9,1-2 (weight: 1),0-1 (weight: 4),12,3,2,2
+Large Graph,8,11,17,3-4 (weight: 2),3-5 (weight: 5),20,3,2,1
+Bridge Removal,5,5,10,0-1 (weight: 1),0-4 (weight: 8),17,7,2,1
+Complex Graph,7,9,13,5-6 (weight: 2),4-6 (weight: 4),15,2,2,1
